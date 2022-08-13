@@ -46,7 +46,7 @@
 		F5C3E74628A83E27005BDA29 = {
 			isa = PBXGroup;
 			children = (
-				F5C3E75128A83E27005BDA29 /* InstallerAppNavBarExample */,
+				F5C3E75128A83E27005BDA29 /* CustomNavBarTest */,
 				F5C3E75028A83E27005BDA29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5C3E75128A83E27005BDA29 /* InstallerAppNavBarExample */ = {
+		F5C3E75128A83E27005BDA29 /* CustomNavBarTest */ = {
 			isa = PBXGroup;
 			children = (
 				F5C3E75228A83E27005BDA29 /* AppDelegate.swift */,
@@ -73,7 +73,7 @@
 				F5C3E75D28A83E2A005BDA29 /* LaunchScreen.storyboard */,
 				F5C3E76028A83E2A005BDA29 /* Info.plist */,
 			);
-			path = InstallerAppNavBarExample;
+			path = CustomNavBarTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
