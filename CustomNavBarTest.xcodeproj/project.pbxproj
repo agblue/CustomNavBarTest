@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		F5C3E75328A83E27005BDA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E75228A83E27005BDA29 /* AppDelegate.swift */; };
 		F5C3E75528A83E27005BDA29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E75428A83E27005BDA29 /* SceneDelegate.swift */; };
-		F5C3E75728A83E27005BDA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E75628A83E27005BDA29 /* ViewController.swift */; };
-		F5C3E75A28A83E27005BDA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C3E75828A83E27005BDA29 /* Main.storyboard */; };
 		F5C3E75C28A83E2A005BDA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C3E75B28A83E2A005BDA29 /* Assets.xcassets */; };
 		F5C3E75F28A83E2A005BDA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C3E75D28A83E2A005BDA29 /* LaunchScreen.storyboard */; };
+		F5C3E76728A83E8F005BDA29 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E76628A83E8F005BDA29 /* MainViewController.swift */; };
+		F5C3E76928A83FEF005BDA29 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E76828A83FEF005BDA29 /* CustomTabView.swift */; };
+		F5C3E76B28A8428D005BDA29 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E76A28A8428D005BDA29 /* ScheduleViewController.swift */; };
+		F5C3E76D28A842E3005BDA29 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E76C28A842E3005BDA29 /* TravelViewController.swift */; };
+		F5C3E76F28A84309005BDA29 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3E76E28A84309005BDA29 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5C3E74F28A83E27005BDA29 /* InstallerAppNavBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstallerAppNavBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C3E74F28A83E27005BDA29 /* CustomNavBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C3E75228A83E27005BDA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C3E75428A83E27005BDA29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5C3E75628A83E27005BDA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5C3E75928A83E27005BDA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5C3E75B28A83E2A005BDA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C3E75E28A83E2A005BDA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5C3E76028A83E2A005BDA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C3E76628A83E8F005BDA29 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F5C3E76828A83FEF005BDA29 /* CustomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		F5C3E76A28A8428D005BDA29 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		F5C3E76C28A842E3005BDA29 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		F5C3E76E28A84309005BDA29 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		F5C3E75028A83E27005BDA29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5C3E74F28A83E27005BDA29 /* InstallerAppNavBarExample.app */,
+				F5C3E74F28A83E27005BDA29 /* CustomNavBarTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +64,11 @@
 			children = (
 				F5C3E75228A83E27005BDA29 /* AppDelegate.swift */,
 				F5C3E75428A83E27005BDA29 /* SceneDelegate.swift */,
-				F5C3E75628A83E27005BDA29 /* ViewController.swift */,
-				F5C3E75828A83E27005BDA29 /* Main.storyboard */,
+				F5C3E76628A83E8F005BDA29 /* MainViewController.swift */,
+				F5C3E76A28A8428D005BDA29 /* ScheduleViewController.swift */,
+				F5C3E76C28A842E3005BDA29 /* TravelViewController.swift */,
+				F5C3E76E28A84309005BDA29 /* ProfileViewController.swift */,
+				F5C3E76828A83FEF005BDA29 /* CustomTabView.swift */,
 				F5C3E75B28A83E2A005BDA29 /* Assets.xcassets */,
 				F5C3E75D28A83E2A005BDA29 /* LaunchScreen.storyboard */,
 				F5C3E76028A83E2A005BDA29 /* Info.plist */,
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5C3E74E28A83E27005BDA29 /* InstallerAppNavBarExample */ = {
+		F5C3E74E28A83E27005BDA29 /* CustomNavBarTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5C3E76328A83E2A005BDA29 /* Build configuration list for PBXNativeTarget "InstallerAppNavBarExample" */;
+			buildConfigurationList = F5C3E76328A83E2A005BDA29 /* Build configuration list for PBXNativeTarget "CustomNavBarTest" */;
 			buildPhases = (
 				F5C3E74B28A83E27005BDA29 /* Sources */,
 				F5C3E74C28A83E27005BDA29 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = InstallerAppNavBarExample;
+			name = CustomNavBarTest;
 			productName = InstallerAppNavBarExample;
-			productReference = F5C3E74F28A83E27005BDA29 /* InstallerAppNavBarExample.app */;
+			productReference = F5C3E74F28A83E27005BDA29 /* CustomNavBarTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5C3E74A28A83E27005BDA29 /* Build configuration list for PBXProject "InstallerAppNavBarExample" */;
+			buildConfigurationList = F5C3E74A28A83E27005BDA29 /* Build configuration list for PBXProject "CustomNavBarTest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5C3E74E28A83E27005BDA29 /* InstallerAppNavBarExample */,
+				F5C3E74E28A83E27005BDA29 /* CustomNavBarTest */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +136,6 @@
 			files = (
 				F5C3E75F28A83E2A005BDA29 /* LaunchScreen.storyboard in Resources */,
 				F5C3E75C28A83E2A005BDA29 /* Assets.xcassets in Resources */,
-				F5C3E75A28A83E27005BDA29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +146,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C3E75728A83E27005BDA29 /* ViewController.swift in Sources */,
+				F5C3E76B28A8428D005BDA29 /* ScheduleViewController.swift in Sources */,
+				F5C3E76728A83E8F005BDA29 /* MainViewController.swift in Sources */,
+				F5C3E76D28A842E3005BDA29 /* TravelViewController.swift in Sources */,
 				F5C3E75328A83E27005BDA29 /* AppDelegate.swift in Sources */,
+				F5C3E76F28A84309005BDA29 /* ProfileViewController.swift in Sources */,
 				F5C3E75528A83E27005BDA29 /* SceneDelegate.swift in Sources */,
+				F5C3E76928A83FEF005BDA29 /* CustomTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5C3E75828A83E27005BDA29 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5C3E75928A83E27005BDA29 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5C3E75D28A83E2A005BDA29 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +296,6 @@
 				INFOPLIST_FILE = InstallerAppNavBarExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +323,6 @@
 				INFOPLIST_FILE = InstallerAppNavBarExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5C3E74A28A83E27005BDA29 /* Build configuration list for PBXProject "InstallerAppNavBarExample" */ = {
+		F5C3E74A28A83E27005BDA29 /* Build configuration list for PBXProject "CustomNavBarTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5C3E76128A83E2A005BDA29 /* Debug */,
@@ -348,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5C3E76328A83E2A005BDA29 /* Build configuration list for PBXNativeTarget "InstallerAppNavBarExample" */ = {
+		F5C3E76328A83E2A005BDA29 /* Build configuration list for PBXNativeTarget "CustomNavBarTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5C3E76428A83E2A005BDA29 /* Debug */,
